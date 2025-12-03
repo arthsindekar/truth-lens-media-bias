@@ -10,7 +10,7 @@ import os
 # 1. Load dataset (LOCAL FILES)
 # -----------------------------------------------------------
 
-BASE_DIR = "/Users/arthsindekar/Desktop/AI/ProjectMediaBias/data/"
+BASE_DIR = "data/"
 
 def load_split(name: str):
     """Load the local parquet split."""
@@ -25,7 +25,15 @@ def load_split(name: str):
 
 
 train_df = load_split("train")
-valid_df = load_split("valid")
+from sklearn.model_selection import train_test_split
+
+train_df, valid_df = train_test_split(
+    train_df,
+    test_size=0.1,         # 10% of train
+    random_state=42,
+    stratify=train_df["bias"]   # keep class distribution consistent
+)
+
 test_df = load_split("test")
 
 
