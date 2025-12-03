@@ -1,0 +1,8 @@
+# macOS junk
+.DS_Store
+
+# JetBrains IDE junk
+.idea/
+
+# Inside folders
+*/.DS_Store
