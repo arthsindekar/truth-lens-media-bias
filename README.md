@@ -149,9 +149,9 @@ The provided validation split was **heavily imbalanced** (~70% Left), resulting 
 * **Python 3.10+**
 * **scikit-learn**
 * **PyTorch**
-* **Hugging Face Transformers**
-* **pandas / numpy / tqdm**
-* **Matplotlib / Seaborn (optional visualization)**
+* **Transformers**
+* **pandas / numpy /**
+
 
 ---
 
