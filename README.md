@@ -9,7 +9,7 @@ We implement and evaluate:
   - Logistic Regression
   - Linear SVM
   - Decision Tree
-- A **BERT-based classifier** using Hugging Face Transformers and PyTorch.
+- A **BERT-based classifier** using  Transformers and PyTorch.
 
 ---
 
