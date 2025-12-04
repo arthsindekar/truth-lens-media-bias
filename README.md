@@ -52,13 +52,6 @@ truth-lens-media-bias/
 │   ├── valid-00000-of-00001.parquet
 │   └── test-00000-of-00001.parquet
 │
-├── utils/
-│   ├── preprocessing.py         # Text cleaning, tokenization, TF-IDF setup
-│   ├── dataset_loader.py        # Safe dataset loading functions
-│   └── evaluation.py            # Helper functions, confusion matrices, metrics
-│
-├── results/                     # Saved evaluation outputs, logs, graphs
-│
 └── README.md                    # You are here
 ```
 
