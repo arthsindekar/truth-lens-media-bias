@@ -59,10 +59,9 @@ truth-lens-media-bias/
 
 ## 📊 **Dataset**
 
-The project uses two openly available datasets from HuggingFace:
+The project uses one openly available datasets from HuggingFace:
 
-* **Article Bias Prediction Media Splits**
-* **BABE (Balanced Annotated Bias Evaluation)**
+https://huggingface.co/datasets/siddharthmb/article-bias-prediction-media-splits
 
 Total articles: **~34,000**
 Labels:
