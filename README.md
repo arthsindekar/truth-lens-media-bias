@@ -167,9 +167,6 @@ The provided validation split was **heavily imbalanced** (~70% Left), resulting 
 
 ## ❤️ **Acknowledgements**
 
-This project was built for:
-**CS5100 – Foundations of Artificial Intelligence**
-
 Special thanks to the dataset contributors and the open-source NLP community.
 
 
