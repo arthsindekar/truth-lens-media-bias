@@ -1,7 +1,7 @@
 
 
 # 🌐 **TruthLens — Semantic Analysis of Political Bias in News Articles**
-
+Application Live on StreamLit: https://truth-lens-media-bias.streamlit.app/
 ### **Authors:**
 
 * **Arth Sindekar**
