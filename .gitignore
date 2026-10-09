@@ -6,3 +6,4 @@
 
 # Inside folders
 */.DS_Store
+.venv/
